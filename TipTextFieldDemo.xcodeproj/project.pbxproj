@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183FCE1D18D935D4001312A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183FCE1C18D935D4001312A4 /* Foundation.framework */; };
+		183FCE1F18D935D4001312A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183FCE1E18D935D4001312A4 /* CoreGraphics.framework */; };
+		183FCE2118D935D4001312A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183FCE2018D935D4001312A4 /* UIKit.framework */; };
+		183FCE2718D935D4001312A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183FCE2518D935D4001312A4 /* InfoPlist.strings */; };
+		183FCE2918D935D4001312A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE2818D935D4001312A4 /* main.m */; };
+		183FCE2D18D935D4001312A4 /* mspAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE2C18D935D4001312A4 /* mspAppDelegate.m */; };
+		183FCE3018D935D4001312A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183FCE2E18D935D4001312A4 /* Main.storyboard */; };
+		183FCE3318D935D4001312A4 /* mspViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE3218D935D4001312A4 /* mspViewController.m */; };
+		183FCE3518D935D4001312A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183FCE3418D935D4001312A4 /* Images.xcassets */; };
+		183FCE3C18D935D4001312A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183FCE3B18D935D4001312A4 /* XCTest.framework */; };
+		183FCE3D18D935D4001312A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183FCE1C18D935D4001312A4 /* Foundation.framework */; };
+		183FCE3E18D935D4001312A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183FCE2018D935D4001312A4 /* UIKit.framework */; };
+		183FCE4618D935D4001312A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183FCE4418D935D4001312A4 /* InfoPlist.strings */; };
+		183FCE4818D935D4001312A4 /* TipTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE4718D935D4001312A4 /* TipTextFieldDemoTests.m */; };
+		183FCE5618D9362E001312A4 /* TipsTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE5518D9362E001312A4 /* TipsTextField.m */; };
+		183FCE5A18D947A3001312A4 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE5818D947A3001312A4 /* TestViewController.m */; };
+		183FCE5E18D96DAE001312A4 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183FCE5D18D96DAE001312A4 /* TestViewController.xib */; };
+		183FCE6618D97709001312A4 /* test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FCE6418D97709001312A4 /* test2ViewController.m */; };
+		183FCE6718D97709001312A4 /* test2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183FCE6518D97709001312A4 /* test2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183FCE3F18D935D4001312A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183FCE1118D935D4001312A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183FCE1818D935D4001312A4;
+			remoteInfo = TipTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183FCE1918D935D4001312A4 /* TipTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183FCE1C18D935D4001312A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183FCE1E18D935D4001312A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183FCE2018D935D4001312A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183FCE2418D935D4001312A4 /* TipTextFieldDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
+		183FCE2618D935D4001312A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183FCE2818D935D4001312A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183FCE2A18D935D4001312A4 /* TipTextFieldDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TipTextFieldDemo-Prefix.pch"; sourceTree = "<group>"; };
+		183FCE2B18D935D4001312A4 /* mspAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mspAppDelegate.h; sourceTree = "<group>"; };
+		183FCE2C18D935D4001312A4 /* mspAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mspAppDelegate.m; sourceTree = "<group>"; };
+		183FCE2F18D935D4001312A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183FCE3118D935D4001312A4 /* mspViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mspViewController.h; sourceTree = "<group>"; };
+		183FCE3218D935D4001312A4 /* mspViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mspViewController.m; sourceTree = "<group>"; };
+		183FCE3418D935D4001312A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		183FCE3A18D935D4001312A4 /* TipTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183FCE3B18D935D4001312A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		183FCE4318D935D4001312A4 /* TipTextFieldDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipTextFieldDemoTests-Info.plist"; sourceTree = "<group>"; };
+		183FCE4518D935D4001312A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183FCE4718D935D4001312A4 /* TipTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipTextFieldDemoTests.m; sourceTree = "<group>"; };
+		183FCE5418D9362E001312A4 /* TipsTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsTextField.h; sourceTree = "<group>"; };
+		183FCE5518D9362E001312A4 /* TipsTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsTextField.m; sourceTree = "<group>"; };
+		183FCE5718D947A3001312A4 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		183FCE5818D947A3001312A4 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		183FCE5D18D96DAE001312A4 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		183FCE6318D97709001312A4 /* test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2ViewController.h; sourceTree = "<group>"; };
+		183FCE6418D97709001312A4 /* test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2ViewController.m; sourceTree = "<group>"; };
+		183FCE6518D97709001312A4 /* test2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183FCE1618D935D4001312A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FCE1F18D935D4001312A4 /* CoreGraphics.framework in Frameworks */,
+				183FCE2118D935D4001312A4 /* UIKit.framework in Frameworks */,
+				183FCE1D18D935D4001312A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183FCE3718D935D4001312A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FCE3C18D935D4001312A4 /* XCTest.framework in Frameworks */,
+				183FCE3E18D935D4001312A4 /* UIKit.framework in Frameworks */,
+				183FCE3D18D935D4001312A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183FCE1018D935D4001312A4 = {
+			isa = PBXGroup;
+			children = (
+				183FCE6318D97709001312A4 /* test2ViewController.h */,
+				183FCE6418D97709001312A4 /* test2ViewController.m */,
+				183FCE6518D97709001312A4 /* test2ViewController.xib */,
+				183FCE5718D947A3001312A4 /* TestViewController.h */,
+				183FCE5818D947A3001312A4 /* TestViewController.m */,
+				183FCE5D18D96DAE001312A4 /* TestViewController.xib */,
+				183FCE2218D935D4001312A4 /* TipTextFieldDemo */,
+				183FCE4118D935D4001312A4 /* TipTextFieldDemoTests */,
+				183FCE1B18D935D4001312A4 /* Frameworks */,
+				183FCE1A18D935D4001312A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183FCE1A18D935D4001312A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183FCE1918D935D4001312A4 /* TipTextFieldDemo.app */,
+				183FCE3A18D935D4001312A4 /* TipTextFieldDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183FCE1B18D935D4001312A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183FCE1C18D935D4001312A4 /* Foundation.framework */,
+				183FCE1E18D935D4001312A4 /* CoreGraphics.framework */,
+				183FCE2018D935D4001312A4 /* UIKit.framework */,
+				183FCE3B18D935D4001312A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183FCE2218D935D4001312A4 /* TipTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				183FCE2B18D935D4001312A4 /* mspAppDelegate.h */,
+				183FCE2C18D935D4001312A4 /* mspAppDelegate.m */,
+				183FCE2E18D935D4001312A4 /* Main.storyboard */,
+				183FCE3118D935D4001312A4 /* mspViewController.h */,
+				183FCE3218D935D4001312A4 /* mspViewController.m */,
+				183FCE3418D935D4001312A4 /* Images.xcassets */,
+				183FCE2318D935D4001312A4 /* Supporting Files */,
+				183FCE5418D9362E001312A4 /* TipsTextField.h */,
+				183FCE5518D9362E001312A4 /* TipsTextField.m */,
+			);
+			path = TipTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		183FCE2318D935D4001312A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183FCE2418D935D4001312A4 /* TipTextFieldDemo-Info.plist */,
+				183FCE2518D935D4001312A4 /* InfoPlist.strings */,
+				183FCE2818D935D4001312A4 /* main.m */,
+				183FCE2A18D935D4001312A4 /* TipTextFieldDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183FCE4118D935D4001312A4 /* TipTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				183FCE4718D935D4001312A4 /* TipTextFieldDemoTests.m */,
+				183FCE4218D935D4001312A4 /* Supporting Files */,
+			);
+			path = TipTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		183FCE4218D935D4001312A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183FCE4318D935D4001312A4 /* TipTextFieldDemoTests-Info.plist */,
+				183FCE4418D935D4001312A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183FCE1818D935D4001312A4 /* TipTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183FCE4B18D935D4001312A4 /* Build configuration list for PBXNativeTarget "TipTextFieldDemo" */;
+			buildPhases = (
+				183FCE1518D935D4001312A4 /* Sources */,
+				183FCE1618D935D4001312A4 /* Frameworks */,
+				183FCE1718D935D4001312A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipTextFieldDemo;
+			productName = TipTextFieldDemo;
+			productReference = 183FCE1918D935D4001312A4 /* TipTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183FCE3918D935D4001312A4 /* TipTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183FCE4E18D935D4001312A4 /* Build configuration list for PBXNativeTarget "TipTextFieldDemoTests" */;
+			buildPhases = (
+				183FCE3618D935D4001312A4 /* Sources */,
+				183FCE3718D935D4001312A4 /* Frameworks */,
+				183FCE3818D935D4001312A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183FCE4018D935D4001312A4 /* PBXTargetDependency */,
+			);
+			name = TipTextFieldDemoTests;
+			productName = TipTextFieldDemoTests;
+			productReference = 183FCE3A18D935D4001312A4 /* TipTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183FCE1118D935D4001312A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = msp;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = msp;
+				TargetAttributes = {
+					183FCE3918D935D4001312A4 = {
+						TestTargetID = 183FCE1818D935D4001312A4;
+					};
+				};
+			};
+			buildConfigurationList = 183FCE1418D935D4001312A4 /* Build configuration list for PBXProject "TipTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183FCE1018D935D4001312A4;
+			productRefGroup = 183FCE1A18D935D4001312A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183FCE1818D935D4001312A4 /* TipTextFieldDemo */,
+				183FCE3918D935D4001312A4 /* TipTextFieldDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183FCE1718D935D4001312A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FCE3518D935D4001312A4 /* Images.xcassets in Resources */,
+				183FCE2718D935D4001312A4 /* InfoPlist.strings in Resources */,
+				183FCE5E18D96DAE001312A4 /* TestViewController.xib in Resources */,
+				183FCE6718D97709001312A4 /* test2ViewController.xib in Resources */,
+				183FCE3018D935D4001312A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183FCE3818D935D4001312A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FCE4618D935D4001312A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183FCE1518D935D4001312A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FCE3318D935D4001312A4 /* mspViewController.m in Sources */,
+				183FCE2918D935D4001312A4 /* main.m in Sources */,
+				183FCE2D18D935D4001312A4 /* mspAppDelegate.m in Sources */,
+				183FCE5618D9362E001312A4 /* TipsTextField.m in Sources */,
+				183FCE5A18D947A3001312A4 /* TestViewController.m in Sources */,
+				183FCE6618D97709001312A4 /* test2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183FCE3618D935D4001312A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FCE4818D935D4001312A4 /* TipTextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183FCE4018D935D4001312A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183FCE1818D935D4001312A4 /* TipTextFieldDemo */;
+			targetProxy = 183FCE3F18D935D4001312A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183FCE2518D935D4001312A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183FCE2618D935D4001312A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		183FCE2E18D935D4001312A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183FCE2F18D935D4001312A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183FCE4418D935D4001312A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183FCE4518D935D4001312A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183FCE4918D935D4001312A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183FCE4A18D935D4001312A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183FCE4C18D935D4001312A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TipTextFieldDemo/TipTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "TipTextFieldDemo/TipTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183FCE4D18D935D4001312A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TipTextFieldDemo/TipTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "TipTextFieldDemo/TipTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		183FCE4F18D935D4001312A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TipTextFieldDemo.app/TipTextFieldDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TipTextFieldDemo/TipTextFieldDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TipTextFieldDemoTests/TipTextFieldDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		183FCE5018D935D4001312A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TipTextFieldDemo.app/TipTextFieldDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TipTextFieldDemo/TipTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "TipTextFieldDemoTests/TipTextFieldDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183FCE1418D935D4001312A4 /* Build configuration list for PBXProject "TipTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183FCE4918D935D4001312A4 /* Debug */,
+				183FCE4A18D935D4001312A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183FCE4B18D935D4001312A4 /* Build configuration list for PBXNativeTarget "TipTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183FCE4C18D935D4001312A4 /* Debug */,
+				183FCE4D18D935D4001312A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		183FCE4E18D935D4001312A4 /* Build configuration list for PBXNativeTarget "TipTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183FCE4F18D935D4001312A4 /* Debug */,
+				183FCE5018D935D4001312A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183FCE1118D935D4001312A4 /* Project object */;
+}
